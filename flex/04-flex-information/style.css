@@ -1,12 +1,34 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+.main-container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.all-plants { 
+  display: flex;
+  gap: 52px;
+
+}
 
 img {
   width: 100px;
   height: 100px;
 }
 
+.barberry, .chili, .pepper, .saffron { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 200px;
+}
+.text { 
+  text-align: center;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
